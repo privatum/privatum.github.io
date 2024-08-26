@@ -23,8 +23,10 @@ We are a passionate collective of computer science students from the Technical U
 
 [Learn More About Us](/about/){: .btn .btn--learn-more}
 
+<div style="background-color: white; color: black;">
 ## Upcoming Events
 {% include upcoming_events.html %}
+</div>
 
 ## Latest News and Stories
 
