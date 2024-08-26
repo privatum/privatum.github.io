@@ -175,7 +175,7 @@ $tum-blue: #0065BD;  // TUM Blue
 $tum-gray: #999999;  // TUM Gray
 $tum-orange: #E37222;  // TUM Orange
 
-$body-color: $dark-blue;
+$body-color: linear-gradient(to bottom, #000000, $dark-blue);
 $background-color: $dark-blue;
 $text-color: $white;
 $link-color: $light-blue;

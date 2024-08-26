@@ -52,7 +52,7 @@ We are a passionate collective of computer science students from the Technical U
   <p class="benefits-tagline">We support you</p>
   
   <div class="benefits-description">
-    <p>Are you passionate about AI and ready to make a real-world impact? PrivaTUM invites you to join our AI Research Lab, a platform where visionaries, doers, and risk-takers with an interest in AI and privacy come together to shape the future of technology. We value diversity, curiosity, and a commitment to learning and improvement.</p>
+    <p>Are you fascinated by the intersection of AI and privacy? We're seeking innovative minds to join us in developing privacy-preserving AI techniques that protect individual data while enabling powerful machine learning insights. Our topics span differential privacy, federated learning, and secure multi-party computation. If you're passionate about shaping the future of ethical AI that respects privacy, we invite you to be part of our diverse, curious, and committed team. Together, we can advance AI technology while safeguarding personal information.</p>
     
   </div>
   
