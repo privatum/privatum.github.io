@@ -15,6 +15,7 @@ body {
   background-color: $dark-blue;
   font-family: $global-font-family;
   line-height: 1.5;
+  font-weight: 300;  // Add this line for a lighter font weight
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
