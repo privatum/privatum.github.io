@@ -636,14 +636,14 @@
 }
 
 .gradient-text {
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  background: linear-gradient(45deg, #acd0ff, #a7cdf5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
-  font-size: 4em;
+  // text-fill-color: transparent;
+  font-size: 5em;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0.5em;
 }
 
