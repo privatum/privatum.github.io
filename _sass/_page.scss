@@ -117,7 +117,7 @@
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 5em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
+    height: 110%;
     transform: translateX(-50%) translateY(-50%);
     object-fit: cover;
     filter: brightness(0.7) contrast(1.2) saturate(0.8) blur(2px);
@@ -502,5 +502,64 @@
 
   &:hover {
     background-color: darken($primary-color, 10%);
+  }
+}
+
+.benefits {
+  background-color: $background-color;
+  color: #fff;
+  padding: 4em 2em;
+  text-align: center;
+
+  h2 {
+    color: $primary-color;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .benefits-tagline {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+
+    strong {
+      color: $primary-color;
+    }
+  }
+
+  .benefits-description {
+    max-width: 800px;
+    margin: 0 auto 3em;
+    text-align: left;
+  }
+
+  .benefits-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+
+  .benefit-item {
+    flex-basis: calc(50% - 1em);
+    text-align: left;
+
+    i {
+      font-size: 2em;
+      color: $primary-color;
+      margin-bottom: 0.5em;
+    }
+
+    h3 {
+      color: $primary-color;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits {
+    .benefit-item {
+      flex-basis: 100%;
+    }
   }
 }
