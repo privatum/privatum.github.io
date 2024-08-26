@@ -759,3 +759,36 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
 }
+
+.btn--hero {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: $white;
+  background: linear-gradient(45deg, #acd0ff, #a7cdf5);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.page__hero--overlay {
+  .wrapper {
+    text-align: center;
+  }
+
+  .page__title {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+
+  .page__sub-lead {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+}
