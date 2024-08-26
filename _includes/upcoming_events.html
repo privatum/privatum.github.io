@@ -3,7 +3,7 @@
   {% assign future_events = sorted_events | where_exp: "event", "event.date >= site.time" %}
   {% if future_events.size > 0 %}
     {% for event in future_events limit:3 %}
-      <div class="event-item">
+      <div class="event-item slide-reveal">
         <h3>{{ event.title }}</h3>
         <p><strong>Date:</strong> {{ event.date | date: "%B %d, %Y" }}</p>
         <p><strong>Location:</strong> {{ event.location }}</p>
@@ -12,6 +12,6 @@
       </div>
     {% endfor %}
   {% else %}
-    <p>No upcoming events at this time.</p>
+    <p class="slide-reveal">No upcoming events at this time.</p>
   {% endif %}
 </div>

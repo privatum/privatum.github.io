@@ -96,4 +96,18 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  function revealOnScroll() {
+    var revealElements = document.querySelectorAll('.slide-reveal');
+    var windowHeight = window.innerHeight;
+
+    revealElements.forEach(function(element) {
+      var elementTop = element.getBoundingClientRect().top;
+      if (elementTop < windowHeight - 50) {
+        element.classList.add('revealed');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
 });
