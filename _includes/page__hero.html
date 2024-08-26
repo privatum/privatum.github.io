@@ -27,6 +27,13 @@
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
+  {% if page.header.video.path %}
+    <div class="page__hero-video">
+      <video autoplay loop muted playsinline class="video-background">
+        <source src="{{ page.header.video.path | relative_url }}" type="video/mp4">
+      </video>
+    </div>
+  {% endif %}
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
       <h1 class="page__title" itemprop="headline">
