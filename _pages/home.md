@@ -26,6 +26,26 @@ We are a passionate collective of computer science students from the Technical U
 ## Upcoming Events
 {% include upcoming_events.html %}
 
+## Latest News and Stories
+
+<div class="post-grid">
+  {% for post in site.posts limit:3 %}
+    <div class="post-item">
+      {% if post.header.teaser %}
+        <div class="post-image">
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        </div>
+      {% endif %}
+      <div class="post-content">
+        <p class="post-category">{{ post.categories[0] | upcase }} {{ post.date | date: "%d.%m.%Y" }}</p>
+        <h2 class="post-title">{{ post.title }}</h2>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
+        <a href="{{ post.url | relative_url }}" class="read-more">Mehr erfahren</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 <section class="benefits">
   <h2>BENEFITS</h2>
   
