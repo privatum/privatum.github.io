@@ -67,3 +67,20 @@ We are a passionate collective of computer science students from the Technical U
     </div>
   </div>
 </section>
+
+<section class="team-members">
+  <h2>MEET THE TEAM</h2>
+  
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="/images/team-member-1.jpg" alt="Team Member Name">
+      <h3>Team Member Name</h3>
+      <p>Position</p>
+      <div class="social-icons">
+        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <!-- Add more team members as needed -->
+  </div>
+</section>

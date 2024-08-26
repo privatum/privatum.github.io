@@ -660,3 +660,75 @@
   background-size: cover;
   background-position: center;
 }
+
+.team-members, .faq {
+  background-color: $background-color;
+  color: #fff;
+  padding: 4em 2em;
+  text-align: center;
+
+  h2 {
+    color: $primary-color;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  justify-items: center;
+}
+
+.team-member {
+  text-align: center;
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    color: $primary-color;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+.social-icons {
+  a {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 0.5em;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+.faq-item {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5em;
+  border-radius: 10px;
+
+  h3 {
+    color: $primary-color;
+    margin-bottom: 0.5em;
+  }
+}
