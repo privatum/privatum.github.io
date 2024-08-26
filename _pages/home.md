@@ -71,6 +71,36 @@ We are a passionate collective of computer science students from the Technical U
   </div> -->
 </section> 
 
+<section class="benefits">
+  <h2>BENEFITS</h2>
+  
+  <p class="benefits-tagline">We support you</p>
+  <div class="benefits-container">
+    <div class="benefits-description">
+      <p>Join our community to stay updated on the latest in privacy-preserving AI and connect with like-minded researchers and professionals.</p>
+      <div class="join-buttons">
+        <a href="https://join.slack.com/t/privatum-workspace/shared_invite/zt-2pjf4jky9-xKO0kHonJIWKjN0XlIJRlg" class="btn btn--slack">Join our Slack</a>
+        <a href="#" class="btn btn--mailing-list">Join our Mailing List</a>
+      </div>
+    </div>
+    <div class="benefits-image">
+      <!-- Add an image here -->
+      <!-- <img src="/path/to/your/image.jpg" alt="Benefits of joining PrivaTUM"> -->
+    </div>
+  </div>
+  <!-- <div class="benefits-grid">
+    <div class="benefit-item">
+      <i class="fas fa-network-wired"></i>
+      <h3>ACCESS TO OUR NETWORK</h3>
+    </div>
+    <div class="benefit-item">
+      <i class="fas fa-hands-helping"></i>
+      <h3>COUNT ON OUR SUPPORT</h3>
+    </div>
+  </div> -->
+</section> 
+
+
 <section class="team-members">
   <h2>MEET THE TEAM</h2>
   
