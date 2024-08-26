@@ -163,3 +163,28 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+
+/* Colors */
+$dark-blue: #1A2B47;  // Dark blue/navy from logo
+$light-blue: #4A90E2;  // Light blue from logo
+$white: #FFFFFF;
+$light-gray: #F5F5F5;
+$darker-light-blue: #3A7BC8;  // Darker shade of light blue
+$tum-blue: #0065BD;  // TUM Blue
+$tum-gray: #999999;  // TUM Gray
+$tum-orange: #E37222;  // TUM Orange
+
+$body-color: $white;
+$background-color: $white;
+$text-color: $dark-blue;
+$link-color: $light-blue;
+$link-color-hover: $darker-light-blue;
+$masthead-link-color: $dark-blue;
+$masthead-link-color-hover: $light-blue;
+
+$primary-color: $dark-blue;
+$success-color: #62c462;
+$warning-color: $tum-orange;
+$danger-color: #ee5f5b;
+$info-color: $light-blue;
