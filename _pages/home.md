@@ -73,12 +73,11 @@ We are a passionate collective of computer science students from the Technical U
   
   <div class="team-grid">
     <div class="team-member">
-      <img src="/images/team-member-1.jpg" alt="Team Member Name">
-      <h3>Team Member Name</h3>
-      <p>Position</p>
+      <img src="/images/team/nikola.jpeg" alt="Nikola Selic">
+      <h3>Nikola Selic</h3>
+      <p>Founder</p>
       <div class="social-icons">
-        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-        <a href="#" class="email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/nikola-selic/" class="linkedin"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
     <!-- Add more team members as needed -->
