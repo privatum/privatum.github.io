@@ -10,7 +10,7 @@ header:
   actions:
     - label: "Learn More"
       url: "/about/"
-excerpt: "Welcome to PrivaTUM - Privacy-Preserving AI Group at TUM"
+excerpt: "PrivaTUM"
 intro: 
   - excerpt: 'We are dedicated to exploring and advancing the cutting-edge intersection of artificial intelligence and privacy.'
 ---
