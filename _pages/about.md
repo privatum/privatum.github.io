@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Us
 
 Welcome to the Privacy-Preserving AI Group at TUM! We are a passionate collective of computer science students from the Technical University of Munich (TUM) dedicated to exploring and advancing the cutting-edge intersection of artificial intelligence and privacy.
 
