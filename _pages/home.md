@@ -12,7 +12,7 @@ header:
       url: "/about/"
 excerpt: "PrivaTUM"
 intro: 
-  - excerpt: 'We are dedicated to exploring and advancing the cutting-edge intersection of artificial intelligence and privacy.'
+  - excerpt: ''
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -21,7 +21,7 @@ intro:
 
 We are a passionate collective of computer science students from the Technical University of Munich (TUM) dedicated to exploring and advancing the cutting-edge intersection of artificial intelligence and privacy.
 
-[Learn More About Us](/about/){: .btn .btn--learn-more}
+<!-- [Learn More About Us](/about/){: .btn .btn--learn-more} -->
 
 ## Upcoming Events
 {% include upcoming_events.html %}
