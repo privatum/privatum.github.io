@@ -23,15 +23,13 @@ We are a passionate collective of computer science students from the Technical U
 
 [Learn More About Us](/about/){: .btn .btn--learn-more}
 
-<div style="background-color: white; color: black;">
 ## Upcoming Events
 {% include upcoming_events.html %}
-</div>
 
 ## Latest News and Stories
 
 <div class="post-grid">
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:1 %}
     <div class="post-item">
       {% if post.header.teaser %}
         <div class="post-image">
@@ -42,7 +40,7 @@ We are a passionate collective of computer science students from the Technical U
         <p class="post-category">{{ post.categories[0] | upcase }} {{ post.date | date: "%d.%m.%Y" }}</p>
         <h2 class="post-title">{{ post.title }}</h2>
         <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 100 }}</p>
-        <a href="{{ post.url | relative_url }}" class="read-more">Mehr erfahren</a>
+        <a href="{{ post.url | relative_url }}" class="read-more">Show more</a>
       </div>
     </div>
   {% endfor %}
