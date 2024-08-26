@@ -432,3 +432,33 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
+
+.btn--learn-more {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  color: $background-color;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($background-color, 10%);
+  }
+
+  &::before {
+    content: "\2192";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    color: $background-color;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+  }
+}
