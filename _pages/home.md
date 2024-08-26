@@ -84,3 +84,10 @@ We are a passionate collective of computer science students from the Technical U
     <!-- Add more team members as needed -->
   </div>
 </section>
+
+
+
+<section class="contact-us">
+  <h2>You still have other questions?</h2>
+  <a href="mailto:contact@privatum.tech" class="btn btn--contact">Ask us here</a>
+</section>

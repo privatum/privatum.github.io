@@ -53,6 +53,7 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    color: #fff;
   }
 
   p, li, dl {
@@ -730,5 +731,31 @@
   h3 {
     color: $primary-color;
     margin-bottom: 0.5em;
+  }
+}
+.contact-us {
+  background-color: $background-color;
+  color: #fff;
+  padding: 4em 2em;
+  text-align: center;
+
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+}
+.btn--contact {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
   }
 }
