@@ -50,13 +50,16 @@ We are a passionate collective of computer science students from the Technical U
   <h2>BENEFITS</h2>
   
   <p class="benefits-tagline">We support you</p>
-  
-  <div class="benefits-description">
-    <p>Are you fascinated by the intersection of AI and privacy? We're seeking innovative minds to join us in developing privacy-preserving AI techniques that protect individual data while enabling powerful machine learning insights. Our topics span differential privacy, federated learning, and secure multi-party computation. If you're passionate about shaping the future of ethical AI that respects privacy, we invite you to be part of our diverse, curious, and committed team. Together, we can advance AI technology while safeguarding personal information.</p>
-    
+  <div class="benefits-container">
+    <div class="benefits-description">
+      <p>Are you fascinated by the intersection of AI and privacy? We're seeking innovative minds to join us in developing privacy-preserving AI techniques that protect individual data while enabling powerful machine learning insights. Our topics span differential privacy, federated learning, and secure multi-party computation. If you're passionate about shaping the future of ethical AI that respects privacy, we invite you to be part of our diverse, curious, and committed team. Together, we can advance AI technology while safeguarding personal information.</p>
+    </div>
+    <div class="benefits-image">
+      <!-- Add an image here -->
+      <!-- <img src="/path/to/your/image.jpg" alt="Benefits of joining PrivaTUM"> -->
+    </div>
   </div>
-  
-  <div class="benefits-grid">
+  <!-- <div class="benefits-grid">
     <div class="benefit-item">
       <i class="fas fa-network-wired"></i>
       <h3>ACCESS TO OUR NETWORK</h3>
@@ -65,21 +68,21 @@ We are a passionate collective of computer science students from the Technical U
       <i class="fas fa-hands-helping"></i>
       <h3>COUNT ON OUR SUPPORT</h3>
     </div>
-  </div>
-</section>
+  </div> -->
+</section> 
 
 <section class="team-members">
   <h2>MEET THE TEAM</h2>
   
   <div class="team-grid">
-    <div class="team-member">
+    <!-- <div class="team-member">
       <img src="/images/team/nikola.jpeg" alt="Nikola Selic">
       <h3>Nikola Selic</h3>
       <p>Founder</p>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/nikola-selic/" class="linkedin"><i class="fab fa-linkedin"></i></a>
       </div>
-    </div>
+    </div> -->
     <!-- Add more team members as needed -->
   </div>
 </section>
